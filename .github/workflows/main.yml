@@ -23,6 +23,6 @@ jobs:
      run: aws eks update-kubeconfig --name ToDo-App
       
    
-   - name: Deploy nodejs helm chart to EKS
+   - name: Deploy go helm chart to EKS
      run: |
       helm install nodeapp ./node-app
